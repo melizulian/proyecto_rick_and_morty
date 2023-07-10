@@ -2,7 +2,22 @@
     color: aliceblue;
     background-color: rgb(7, 10, 10);
     display: flex;
-    justify-content: space-around;
-    padding: 10px 0;
+    justify-content: center;
+    align-items: center;
+    padding: 3px 0;
+    flex: 1;
+}
+
+.about, .home{
+    text-decoration: none;
+    background-color:#9FF826;
+    border-radius: 8px;
+    padding: 3px;
+    font-family: monospace;
+    font-size: large;
+    display: flex;
+    margin: 10px;
+    
+    
 }
 

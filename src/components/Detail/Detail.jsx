@@ -2,6 +2,7 @@ import axios from "axios";
 import { useParams } from "react-router-dom";
 import { useState, useEffect } from "react";
 import Card from "../Card/Card";
+import style from "./detail.module.css"
 
 
 const Detail = () => {
@@ -21,7 +22,7 @@ const Detail = () => {
     //  useEffect(()=>{console.log(character)}, [character])
 
     return(
-        <div>
+        <div className = {style.container}>
             {character.name !== undefined ? (
         <Card
           key={id}

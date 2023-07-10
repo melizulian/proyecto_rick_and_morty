@@ -1,0 +1,20 @@
+.loginForm{
+    display: flex;
+    flex-direction: column;
+    border: 10px solid #000;
+    background-color: #000;
+    color: #9FF826;
+    text-align: center;
+   
+    
+}
+
+.success{
+    border: 1px solid green;
+    background-color: rgb(174, 223, 174);
+}
+
+.error{
+    border:1px solid red;
+    background-color: rgb(253, 204, 204);
+}

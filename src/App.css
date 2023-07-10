@@ -1,3 +1,6 @@
 .App {
+   background-image: url(C:\Users\melii\OneDrive\Desktop\rick_and_morty\src\images\background.jpg);
    text-align: center;
+   background-size: auto;
+   min-height: 100vh;
 }

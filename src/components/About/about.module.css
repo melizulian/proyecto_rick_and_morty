@@ -1,0 +1,17 @@
+.about{
+   
+        background-color: black;
+        color: white;
+        text-align: center;
+        overflow: hidden;
+        position: relative;
+        margin: 30px;
+        font-family: monospace;
+        border: 4px outset #9FF826;
+    
+}
+
+.card {
+    padding: 50px;
+}
+

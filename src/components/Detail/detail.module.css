@@ -1,0 +1,31 @@
+.container{
+    background-color: black;
+    color: white;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    margin: 30px;
+    font-family: monospace;
+    border: 4px outset #9FF826;
+}
+
+.containerName{
+  display: flex;
+  justify-content: space-around;
+  line-height: 1;
+}
+
+.name{
+  color: #9FF826;
+}
+
+.imagen{
+    width: 100%;
+    
+}
+
+.containerData {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  line-height: 1;
+}
